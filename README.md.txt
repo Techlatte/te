@@ -1,15 +1,21 @@
-# Homework 4 - OOP: Text-based Adventure Game
+ Text-Based Adventure Game - Homework 4: OOP
 
-## Description
-This is a **text-based adventure game** created for **Homework 4** in my Object-Oriented Programming (OOP) course. In the game, you can explore rooms, talk to characters, fight enemies, and collect items. Along the way, you’ll see how key OOP principles like **Encapsulation**, **Abstraction**, **Polymorphism**, and **Inheritance** come into play.
+ Description
+This is a text-based adventure game created for Homework 4 in my Object-Oriented Programming (OOP)course. In the game, you explore rooms, talk to characters, fight enemies, collect items, and solve puzzles. It demonstrates key OOP principles like **Encapsulation**, **Abstraction**, **Polymorphism**, and **Inheritance**.
 
-You’ll interact with the game world using simple text commands to move through rooms, talk to characters, and solve challenges. The game is designed with OOP in mind, making it easy to expand and reuse code.
+ Features
+- Explore Rooms: Use `move [direction]` (e.g., `north`, `south`) to move through the game.
+- Talk to Characters: Use `talk` to interact with NPCs or enemies.
+- Fight Enemies: Type `fight` to battle enemies.
+- Collect Items: Use `pick up [item]` to collect keys, health potions, weapons, etc.
+- Solve Puzzles: Some rooms require solving puzzles to progress.
 
-## Features
-- **Explore Rooms**: Move around by typing `move [direction]` (e.g., `north`, `south`, `east`, `west`).
-- **Talk to Characters**: Use the `talk` command to chat with characters (whether they're NPCs or enemies).
-- **Fight Enemies**: Type `fight` to engage in battles with enemies. Defeat them to progress!
-- **Collect Items**: Pick up items like keys, health potions, and weapons using the `pick up` command.
-- **Solve Puzzles**: Some rooms will require you to solve puzzles to move forward.
+ OOP Concepts
+- Encapsulation: Classes manage data and methods for game objects (rooms, characters, items).
+- Abstraction: Complex interactions are hidden behind simple commands.
+- Polymorphism: Objects (NPCs, enemies) respond to the same command (`talk`, `fight`) in unique ways.
+- Inheritance: Shared behavior for related objects (NPCs, enemies) through a common base class.
+
+
 
 
