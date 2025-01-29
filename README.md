@@ -1,7 +1,7 @@
-# Text-Based Adventure Game - Homework 4: OOP
+# Text-Based Adventure Game
 
 ## Description
-A text-based adventure game created for Homework 4 in my Object-Oriented Programming (OOP) course.
+A text-based adventure game created for  my Object-Oriented Programming (OOP) course.
 The game involves exploring rooms, talking to characters, fighting enemies, collecting items, and solving puzzles while demonstrating key OOP principles like
 **Encapsulation**, **Abstraction**, **Polymorphism**, and **Inheritance**.
 
